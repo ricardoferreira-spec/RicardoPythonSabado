@@ -1,6 +1,7 @@
 # main seá o aquivo principal
 
 from app.controllers.clienteController import clienteController
+from app.controllers.produtoController import produtoController
 
 def exibir_menu():
     print("\n===== MENU =====")
@@ -12,6 +13,7 @@ def exibir_menu():
 
 def main():
     cntrlCliente = clienteController()
+    cntrlProduto = produtoController()
 
     while True:
         exibir_menu()
@@ -35,10 +37,15 @@ def main():
         elif opc == "3":
             nome = input("Nome do produto: ")
             preco = float(input("Preço do Produto: "))
+            cntrlProduto.criar_produto(nome, preco)
 
         elif opc == "4":
             # listar do banco de dados os produtos
-            print("listar")
+            produtos = cntrlProduto.listar_produto()
+            # index -> Posiçao atual do clientes listado
+            # __str__ -> cliente => cliente(nome="", email="", idade="")
+            for index, produto in enumerate(produtos, 1):
+                print(f"{index}.{produto}")
 
         elif opc == "0":
             print("Saindo do Sistema...")

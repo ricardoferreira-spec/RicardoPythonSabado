@@ -26,5 +26,18 @@
             "idade": 35
         }
     ],
-    "produtos": []
+    "produtos": [
+        {
+            "nome": "leite",
+            "preco": 5.0
+        },
+        {
+            "nome": "leite",
+            "preco": 5.0
+        },
+        {
+            "nome": "pao",
+            "preco": 10.0
+        }
+    ]
 }
