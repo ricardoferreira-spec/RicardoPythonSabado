@@ -11,7 +11,7 @@ class produtoController:
         novo_produto = Produto(nome, preco)
         #converter para dict(JSON)
         dict_produto = {
-            "nome": novo_produto.nome,
+            "nomeProduto": novo_produto.nome,
             "preco": novo_produto.preco
         }
 

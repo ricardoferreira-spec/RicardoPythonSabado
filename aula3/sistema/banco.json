@@ -38,6 +38,14 @@
         {
             "nome": "pao",
             "preco": 10.0
+        },
+        {
+            "nome": "acucar",
+            "preco": 30.0
+        },
+        {
+            "nomeProduto": "carne",
+            "preco": 30.0
         }
     ]
 }
