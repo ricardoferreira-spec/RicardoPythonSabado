@@ -1,0 +1,30 @@
+{
+    "clientes": [
+        {
+            "nome": "ricardo",
+            "email": "1@1",
+            "idade": 55
+        },
+        {
+            "nome": "ricardo",
+            "email": "r@r",
+            "idade": 40
+        },
+        {
+            "nome": "ricardo",
+            "email": "r@r",
+            "idade": 40
+        },
+        {
+            "nome": "luciana",
+            "email": "l@l",
+            "idade": 40
+        },
+        {
+            "nome": "angelica",
+            "email": "a@a",
+            "idade": 35
+        }
+    ],
+    "produtos": []
+}

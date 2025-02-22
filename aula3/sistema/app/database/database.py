@@ -19,3 +19,17 @@ class Bancofake:
                 self.dados = json.load(data)
         else:
             self._salvar()
+
+    def _salvar(self):
+        # Salvar o conteúdo de self.dados no arquivo JSON
+        # Abrindo arquivo no modo W (escrita)
+        with open(self.arquivo_db, 'w', encoding="utf-8") as data:
+            # realizando DUMP (Python para JSON) para salvar no banco
+            json.dump(self.dados, data, ensure_ascii=False, indent=4)
+
+    def adicionar_cliente(self, cliente_dict):
+        self.dados["clientes"].append(cliente_dict) # adiciona ao final do dict
+        self._salvar()
+
+    def listar_clientes(self):
+        return self.dados["clientes"]
