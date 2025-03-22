@@ -16,3 +16,22 @@ Programação Oracle - Java Fundamentals
 Jandira - Centro (11) 4772-4700 Rua Elton Silva, 905
 Início 05/04/2025 Fim 14/06/2025
 aos Sábados 08:00 às 17:00
+
+Quais são os tipos de branches?
+Feature branch: Criado para desenvolver uma nova funcionalidade
+Develop branch: Contém código em nível preparatório para o próximo deploy. Contém várias Features
+Bugfix branch: Utilizado para corrigir erros específicos
+Release branch: Preparado para a versão final do software
+Hotfix branch: Utilizado para correções urgentes em produção
+Master branch: Contém código em nível de produção
+
+Tecnologias e Frameworks	
+Aplicativos nativos:                                            Aplicativos híbridos:
+IOS: Objective-C/Swift/Xcode e ANDROID: Kotlin/Java.	        React Native, Flutter, Xamarin, Ionic.
+Ideal para máxima performance e experiência do usuário.         Ideal para projetos com menor orçamento prazo apertado.
+Acesso total ao dispositivo (câmera, GPS, microfone, etc.).     Pouca ou nenhuma integração com dispositivo.
+
+O sistema operacional Android conta com duas linguagens de programação oficiais: Java e Kotlin.
+Para desenvolver aplicativos móveis nativos em iOS, será preciso utilizar Xcode.
+Outras duas linguagens de programação utilizadas no desenvolvimento de aplicativos iOS nativos são a Swift e a Objective-C.
+

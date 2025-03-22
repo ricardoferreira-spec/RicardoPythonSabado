@@ -47,6 +47,8 @@ class Produto:
         cursor.execute("DELETE FROM produtos WHERE id = %s", (id,))
         mysql.connection.commit()
         cursor.close()
+
     
     
+
   
