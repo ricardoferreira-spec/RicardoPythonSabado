@@ -1,4 +1,0 @@
-Nome, Idade, Cidade
-Alberto, 92, chique-chique
-Arthur, 28, arraial
-Matheus, 28, Cotia
