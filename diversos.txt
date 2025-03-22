@@ -25,6 +25,8 @@ Release branch: Preparado para a versão final do software
 Hotfix branch: Utilizado para correções urgentes em produção
 Master branch: Contém código em nível de produção
 
+
+https://uds.com.br/blog/linguagens-desenvolvimento-de-apps-android-e-ios/
 Tecnologias e Frameworks	
 Aplicativos nativos:                                            Aplicativos híbridos:
 IOS: Objective-C/Swift/Xcode e ANDROID: Kotlin/Java.	        React Native, Flutter, Xamarin, Ionic.
