@@ -29,7 +29,7 @@ Master branch: Contém código em nível de produção
 https://uds.com.br/blog/linguagens-desenvolvimento-de-apps-android-e-ios/
 Tecnologias e Frameworks	
 Aplicativos nativos:                                            Aplicativos híbridos:
-IOS: Objective-C/Swift/Xcode e ANDROID: Kotlin/Java.	        React Native, Flutter, Xamarin, Ionic.
+IOS: Xcode/Swift/Objective-C e ANDROID: Kotlin/Java.	        React Native, Flutter, Xamarin, Ionic.
 Ideal para máxima performance e experiência do usuário.         Ideal para projetos com menor orçamento prazo apertado.
 Acesso total ao dispositivo (câmera, GPS, microfone, etc.).     Pouca ou nenhuma integração com dispositivo.
 
@@ -37,3 +37,16 @@ O sistema operacional Android conta com duas linguagens de programação oficiai
 Para desenvolver aplicativos móveis nativos em iOS, será preciso utilizar Xcode.
 Outras duas linguagens de programação utilizadas no desenvolvimento de aplicativos iOS nativos são a Swift e a Objective-C.
 
+
+https://thiagolima.blog.br/parte-5-pagina%C3%A7%C3%A3o-ordena%C3%A7%C3%A3o-e-filtros-em-apis-restful-3045d88b4114
+Offset e Limit
+A paginação baseada em offset e limit é utilizada a partir de um deslocamento de registros.
+Em outras palavras, você especifica no offset a partir de qual registro você quer os dados, e no limit você especifica o limite de registros a serem retornados.
+Agora vamos imaginar que você quer 30 vinhos a partir do décimo registro, então você faria a seguinte requisição:
+HTTP GET
+https://api.minhagastronomia/vinhos?offset=10&limit=30
+
+https://wssilva-willian.medium.com/design-de-api-rest-9807a5b16c9f
+
+HTTP 206 - Partial Content
+Geralmente utilizado em requisições GET onde o dado retornado esta paginado

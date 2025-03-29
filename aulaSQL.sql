@@ -30,17 +30,15 @@ CREATE TABLE Produto(
 );
 */
 
-
+/*
 CREATE DATABASE passay_database;
-
 USE passay_database;
-
 CREATE TABLE produtos (
 	id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100),
     preco int
 );
-
+*/
 select * from produtos;
 
 
