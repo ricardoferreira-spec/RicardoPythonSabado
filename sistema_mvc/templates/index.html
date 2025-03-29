@@ -7,11 +7,11 @@
     <h1>Lista de produtos</h1>
     <a href="/criar">Novo Produto</a>
     <ul>
-        <li>
-            1 - Garrafa - R$ 180.00
-            <a href="/editar/">Editar</a>
-            <a href="/deletar/">Excluir</a>
-        </li>
+        {% for produto in produtos %}
+            <li>
+                {{ produto['nome'] }} - {{produto['preco'] }}
+            </li>
+        {% endfor %}
     </ul>
 </body>
 </html>

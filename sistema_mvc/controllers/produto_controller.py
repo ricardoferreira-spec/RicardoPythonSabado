@@ -1,17 +1,16 @@
 from flask import Blueprint, current_app, redirect, render_template, request, url_for
-from sistema_mvc.models.produto import Produto
-from models.produto import produto
+from models.produto import Produto
 
 produto_bp = Blueprint('produto', __name__)
 
 @produto_bp.route('/')
 def index():
-    produtos = produto.listar(current_app.mysql)
-    return render_template('index.html', produtos=produtos)
+    produtos = Produto.listar(current_app.mysql)
+    return render_template('index.html', produtos=produtos) # retorna uma lista
 
 @produto_bp.route('/criar', methods=['GET', 'POST'])
 def criar():
-    if request.method == 'POST':
+    if request.method == 'POST': # esta querendo criar um Objeto
         #deseja criar um produto
         nome = request.form['nome']
         preco = request.form['preco']

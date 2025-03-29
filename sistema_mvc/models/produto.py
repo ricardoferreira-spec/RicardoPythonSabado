@@ -20,7 +20,7 @@ class Produto:
     
     def salvar(self, mysql):
         cursor = mysql.connection.cursor()
-        cursor.execute("INSERT INTO produtos (nome, preco) VALUES ($s, %s)", (self.nome, self.preco))
+        cursor.execute("INSERT INTO produtos (nome, preco) VALUES (%s, %s)", (self.nome, self.preco))
         mysql.connection.commit()
         cursor.close()
 
